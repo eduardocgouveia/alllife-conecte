@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<title>All Life Institute</title>
+<style>
+  @font-face{
+    font-family:"ABC Monument Grotesk";
+    src:url("fonts/MonumentGrotesk-Heavy.otf") format("opentype");
+    font-weight:800;font-display:swap;
+  }
+  @font-face{
+    font-family:"ABC Simon Mono";
+    src:url("fonts/SimonMono-Light.woff2") format("woff2");
+    font-weight:400;font-display:swap;
+  }
+  :root{
+    --white-paper:#F8F7F3;
+    --black:#333333;
+    --text-dim:#525252;
+    --border:rgba(51,51,51,.14);
+    --f-display:"ABC Monument Grotesk",Helvetica,Arial,sans-serif;
+    --f-mono:"ABC Simon Mono","SF Mono",ui-monospace,Menlo,Courier,monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+  html,body{height:100%}
+  body{
+    font-family:var(--f-mono);
+    background:var(--white-paper);color:var(--black);
+    min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    padding:48px 28px;
+  }
+  .wrap{max-width:340px;width:100%;text-align:center}
+  .logo{display:block;margin:0 auto 56px;width:140px;height:auto}
+  .btn{
+    display:block;width:100%;
+    padding:18px 20px;margin-bottom:14px;
+    border:1px solid var(--border);background:transparent;
+    color:var(--black);text-decoration:none;
+    font-family:var(--f-mono);font-size:14px;letter-spacing:.02em;
+    transition:background .2s ease, border-color .2s ease;
+  }
+  .btn:hover,.btn:active{background:var(--black);color:var(--white-paper);border-color:var(--black)}
+  .btn small{display:block;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--text-dim);margin-bottom:4px}
+  .btn:hover small,.btn:active small{color:rgba(248,247,243,.65)}
+  footer{
+    margin-top:48px;font-size:10px;letter-spacing:.2em;text-transform:uppercase;
+    color:var(--text-dim);
+  }
+</style>
+</head>
+<body>
+  <main class="wrap">
+    <img src="logo-horizontal-preto.png" alt="All Life Institute" class="logo">
+
+    <a class="btn" href="https://wa.me/5511942831777?text=Ol%C3%A1%2C%20vim%20pelo%20cart%C3%A3o%20do%20Instituto.">
+      <small>WhatsApp</small>
+      (11) 94283-1777
+    </a>
+
+    <a class="btn" href="https://instagram.com/alllifeinstitute">
+      <small>Instagram</small>
+      @alllifeinstitute
+    </a>
+
+    <footer>Rua Bento de Andrade, 395 · São Paulo</footer>
+  </main>
+</body>
+</html>
